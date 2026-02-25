@@ -8,6 +8,7 @@ export interface NewsItem {
   imageUrl: string;
   date: string;
   author: string;
+  isViral?: boolean;
 }
 
 export interface Candidate {
